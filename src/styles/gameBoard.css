@@ -1,0 +1,18 @@
+.gameboard-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    background-color: gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cardsList-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+}

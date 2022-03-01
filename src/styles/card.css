@@ -1,8 +1,33 @@
 .pokemonCard{
-    background-color: #F94144;
+    background-color: #F9C74F;
+    width: 120px;
+    padding:25px;
+    border: 2px solid #90BE6D;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemonCard:hover{
+    cursor: pointer;
+    border-color: #F94144;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 5px #90BE6D
+    
 }
 
 .cardName{
     font-family: cursive;
-    color: red
+    color: white;
+    font-size: 25px;
+    background-color: #277DA1;
+    border-radius: 10px;
+    padding:2px;
+    text-align: center;
+}
+
+.cardImg{
+    background-color: #277DA1;
+    border-radius: 50%;
 }
